@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../serdes.ip_user_files/ipstatic" \
+"tb_encoder_8b10b_func_synth.v" \
+
+sv xil_defaultlib  --include "../../../../../serdes.ip_user_files/ipstatic" \
+"../../../../../serdes.srcs/sim_1/new/tb_encoder_8b10b.sv" \
+
+# Do not sort compile order
+nosort

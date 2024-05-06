@@ -1,0 +1,6 @@
+0.7
+2020.2
+Feb  9 2024
+00:36:40
+C:/Users/elvis/Documents/serdes/serdes.sim/sim_1/synth/func/xsim/tb_encoder_8b10b_func_synth.v,1714995830,verilog,,,,clk_wiz_0;encoder_8b10b;glbl;parallel_to_serial;serdes_top,,uvm,../../../../../serdes.ip_user_files/ipstatic,,,,,
+C:/Users/elvis/Documents/serdes/serdes.srcs/sim_1/new/tb_encoder_8b10b.sv,1714982121,systemVerilog,,,,tb_encoder_8b10b,,uvm,../../../../../serdes.ip_user_files/ipstatic,,,,,

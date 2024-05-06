@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_encoder_8b10b_func_synth/xsimk.exe -simmode gui -wdb tb_encoder_8b10b_func_synth.wdb -simrunnum 0 -socket 64969
+Design successfully loaded
+Design Loading Memory Usage: 8860 KB (Peak: 8860 KB)
+Design Loading CPU Usage: 0 ms

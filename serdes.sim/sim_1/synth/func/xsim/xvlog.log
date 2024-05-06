@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/elvis/Documents/serdes/serdes.sim/sim_1/synth/func/xsim/tb_encoder_8b10b_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module encoder_8b10b
+INFO: [VRFC 10-311] analyzing module parallel_to_serial
+INFO: [VRFC 10-311] analyzing module serdes_top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/elvis/Documents/serdes/serdes.srcs/sim_1/new/tb_encoder_8b10b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_encoder_8b10b
