@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_encoder_8b10b_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_encoder_8b10b_sv_2837398374 " />
+            <top_module name="glbl" />
+            <top_module name="tb_encoder_8b10b" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_encoder_8b10b/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_encoder_8b10b/RST_L" type="logic">
+      <obj_property name="ElementShortName">RST_L</obj_property>
+      <obj_property name="ObjectShortName">RST_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_encoder_8b10b/K" type="logic">
+      <obj_property name="ElementShortName">K</obj_property>
+      <obj_property name="ObjectShortName">K</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_encoder_8b10b/DATA" type="array">
+      <obj_property name="ElementShortName">DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_encoder_8b10b/INVALID_K" type="logic">
+      <obj_property name="ElementShortName">INVALID_K</obj_property>
+      <obj_property name="ObjectShortName">INVALID_K</obj_property>
+   </wvobject>
+   <wvobject fp_name="group46" type="group">
+      <obj_property name="label">STAGE_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/K_reg" type="logic">
+         <obj_property name="ElementShortName">K_reg</obj_property>
+         <obj_property name="ObjectShortName">K_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/DATA_reg" type="array">
+         <obj_property name="ElementShortName">DATA_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_reg[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">STAGE_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group53" type="group">
+         <obj_property name="label">ENC_K</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/K_SEL" type="logic">
+            <obj_property name="ElementShortName">K_SEL</obj_property>
+            <obj_property name="ObjectShortName">K_SEL</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/K_ERR" type="logic">
+            <obj_property name="ElementShortName">K_ERR</obj_property>
+            <obj_property name="ObjectShortName">K_ERR</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/KFLIP_RD" type="logic">
+            <obj_property name="ElementShortName">KFLIP_RD</obj_property>
+            <obj_property name="ObjectShortName">KFLIP_RD</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/Kcode_6B" type="array">
+            <obj_property name="ElementShortName">Kcode_6B[5:0]</obj_property>
+            <obj_property name="ObjectShortName">Kcode_6B[5:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/Kcode_4B" type="array">
+            <obj_property name="ElementShortName">Kcode_4B[3:0]</obj_property>
+            <obj_property name="ObjectShortName">Kcode_4B[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/SP_4B_RDP" type="logic">
+            <obj_property name="ElementShortName">SP_4B_RDP</obj_property>
+            <obj_property name="ObjectShortName">SP_4B_RDP</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/SP_4B_RDN" type="logic">
+            <obj_property name="ElementShortName">SP_4B_RDN</obj_property>
+            <obj_property name="ObjectShortName">SP_4B_RDN</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group93" type="group">
+         <obj_property name="label">ENC_D</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/Dcode_6B" type="array">
+            <obj_property name="ElementShortName">Dcode_6B[5:0]</obj_property>
+            <obj_property name="ObjectShortName">Dcode_6B[5:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/Dcode_4B" type="array">
+            <obj_property name="ElementShortName">Dcode_4B[3:0]</obj_property>
+            <obj_property name="ObjectShortName">Dcode_4B[3:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group91" type="group">
+         <obj_property name="label">ENC_FLIP</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/DFLIP_RD" type="logic">
+            <obj_property name="ElementShortName">DFLIP_RD</obj_property>
+            <obj_property name="ObjectShortName">DFLIP_RD</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/EN_INV_6B" type="logic">
+            <obj_property name="ElementShortName">EN_INV_6B</obj_property>
+            <obj_property name="ObjectShortName">EN_INV_6B</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/EN_INV_4B" type="logic">
+            <obj_property name="ElementShortName">EN_INV_4B</obj_property>
+            <obj_property name="ObjectShortName">EN_INV_4B</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_encoder_8b10b/uut/INV_4B_RD" type="logic">
+            <obj_property name="ElementShortName">INV_4B_RD</obj_property>
+            <obj_property name="ObjectShortName">INV_4B_RD</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group89" type="group">
+      <obj_property name="label">STAGE_3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/FLIP_RD" type="logic">
+         <obj_property name="ElementShortName">FLIP_RD</obj_property>
+         <obj_property name="ObjectShortName">FLIP_RD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/CURRENT_RD" type="logic">
+         <obj_property name="ElementShortName">CURRENT_RD</obj_property>
+         <obj_property name="ObjectShortName">CURRENT_RD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/BAD_K" type="logic">
+         <obj_property name="ElementShortName">BAD_K</obj_property>
+         <obj_property name="ObjectShortName">BAD_K</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/INV_6B" type="logic">
+         <obj_property name="ElementShortName">INV_6B</obj_property>
+         <obj_property name="ObjectShortName">INV_6B</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/INV_4B" type="logic">
+         <obj_property name="ElementShortName">INV_4B</obj_property>
+         <obj_property name="ObjectShortName">INV_4B</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/code_6B" type="array">
+         <obj_property name="ElementShortName">code_6B[5:0]</obj_property>
+         <obj_property name="ObjectShortName">code_6B[5:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_encoder_8b10b/uut/code_4B" type="array">
+         <obj_property name="ElementShortName">code_4B[3:0]</obj_property>
+         <obj_property name="ObjectShortName">code_4B[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_encoder_8b10b/TX_DATA" type="array">
+      <obj_property name="ElementShortName">TX_DATA[9:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_DATA[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
